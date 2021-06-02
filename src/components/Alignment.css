@@ -1,0 +1,8 @@
+.alignment {
+  display: flex;
+  width: 100%;
+}
+
+.alignment-inline *:last-child {
+  margin-left: auto;
+}

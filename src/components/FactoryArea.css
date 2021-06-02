@@ -1,0 +1,13 @@
+.col-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-wrapper.align-end *:first-child {
+  margin-top: auto;
+}
+
+.factory-area__content {
+  display: flex;
+  margin: 0 auto;
+}

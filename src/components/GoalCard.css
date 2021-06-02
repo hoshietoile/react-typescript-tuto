@@ -1,0 +1,52 @@
+.goal-card--complete {
+  background-color: #ccc;
+}
+
+.goal-card__label {
+  cursor: pointer;
+}
+
+/** 付け焼刃トグラ－ */
+.goal-card__toggler {
+  margin: 0 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transform: translateY(8px);
+  height: 24px;
+  width: 50px;
+  border-radius: 24px;
+  background-color: #efefef;
+  transition: all 0.3s;
+}
+
+.goal-card__toggler.active {
+  background-color: purple;
+}
+
+.goal-card__toggler::after {
+  position: absolute;
+  content: '';
+  height: 24px;
+  width: 24px;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+.goal-card__toggler.default::after {
+  transform: translateX(0px);
+  box-shadow: 1px 1px -4px rgba(0, 0, 0, 0.3);
+}
+
+.goal-card__toggler.active::after {
+  transform: translateX(26px);
+  box-shadow: 1px 1px -4px rgba(0, 0, 0, 0.3);
+}
+
+.goal-card__toggler input {
+  display: none;
+}

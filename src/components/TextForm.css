@@ -1,0 +1,8 @@
+.text-form {
+  border: 1px solid #ccc;
+}
+
+.text-form:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: none;
+}

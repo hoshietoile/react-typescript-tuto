@@ -1,0 +1,31 @@
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 4px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-default:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+  color: black;
+  background-color: orange;
+}
+
+.btn-secondary:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  color: white;
+  background-color: purple;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
